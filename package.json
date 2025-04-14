@@ -1,0 +1,23 @@
+{
+    "name": "eslint-plugin-no-moment",
+    "version": "1.0.0",
+    "description": "An ESLint rule to disallow moment.js usage",
+    "main": "index.js",
+    "keywords": ["eslint", "eslintplugin", "moment", "no-moment"],
+    "author": "roberto22",
+    "type": "module",
+    "license": "MIT",
+    "peerDependencies": {
+      "eslint": "^8.0.0"
+    },
+    "devDependencies": {
+      "eslint": "^8.0.0"
+    },
+    "exports": {
+      ".": {
+        "require": "./index.js"
+      }
+    }
+    
+  }
+  
